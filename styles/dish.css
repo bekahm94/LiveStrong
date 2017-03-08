@@ -1,0 +1,197 @@
+body {
+  background: -webkit-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* W3C */
+}
+
+.hideme {
+	opacity:0;
+}
+
+.navbar-default {
+	background:rgba(84,149,138,0.6);
+	height:70px;
+	border:none;
+}
+
+.navbar-brand {
+	color:#ffffff !important;
+	font-family: 'Arima Madurai', cursive;
+	font-size:40px;
+	position:relative;
+	top:10px;
+}
+
+
+.hover  li a{ /*targets the <ul> tag and the list inside the tag and within the list, targets the <a> tag*/
+	display: block; /*block display always starts on a new line and takes up the full width available, stretches as far as its allowed*/
+    color: #C7D8D9 !important; /*colour of the font*/
+    text-align: center; /*aligns the text to the centre*/
+	font-size:17px;
+	top:10px;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing:1px;
+	
+}
+
+.hover a:link, .hover a:visited {
+	font-size:17px; /*size of the font*/
+	color:#dae8e6 !important; /*colour of the font using a hex code*/
+}
+
+.hover li a:hover, .hover li a:active {
+	background-color:#dae8e6 !important;
+	cursor:pointer; /*changes when the mouse pointer hovers over it*/
+	color: #079c5d !important; /*colour the font changes to when hovered*/
+	border:1px solid #079c5d !important;
+	-webkit-transition:background-color 1s ease-out; /*using the css webkit plugin slowly fades the background colour from one to another, takes 1 second to fade out... Compatible with Chrome & Safari*/
+	-moz-transition:background-color 1s ease-out; /*Does same as above, compatible with Firefox*/
+	-o-transition: background-color 1s ease-out; /*Does same as above, compatible with Internet Explorer*/
+	transition: background-color 1s ease-out; /*Makes the transition above smooth*/
+}
+
+.hover li a.hover-change {
+	font-size:14px;
+	top:10px;
+	
+}
+
+.divider-vertical {
+	height: 30px;
+	margin: 0 9px;
+	border-left: 1px solid #dae8e6;
+	top:20px;
+	opacity:0.8;
+}
+
+.icon-bar {
+	background-color:#079c5d !important;
+}
+
+.carousel-inner {
+	height:100%;
+	top:-20px;
+	opacity:0.9;
+}
+
+.carousel, .item, .active {
+	height:100%;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+.carousel-control:hover{
+    opacity:0.5;
+}
+.carousel-caption {
+	font-family: 'Bree Serif', serif;
+}
+
+.btn-default {
+	font-family: 'Arima Madurai', cursive;
+	border: 2px solid #dae8e6;
+	color:#ffffff;
+	font-weight:bold;
+	background:#079c5d;
+	width:150px;
+	height:70px;
+	font-size:30px;
+}
+
+.btn-default:hover, .btn-default:active {
+	background-color:#dae8e6 !important;
+	cursor:pointer; /*changes when the mouse pointer hovers over it*/
+	color: #079c5d !important; /*colour the font changes to when hovered*/
+	border:1px solid #079c5d !important;
+	-webkit-transition:background-color 1s ease-out; /*using the css webkit plugin slowly fades the background colour from one to another, takes 1 second to fade out... Compatible with Chrome & Safari*/
+	-moz-transition:background-color 1s ease-out; /*Does same as above, compatible with Firefox*/
+	-o-transition: background-color 1s ease-out; /*Does same as above, compatible with Internet Explorer*/
+	transition: background-color 1s ease-out; /*Makes the transition above smooth*/
+}
+
+/*-------------------------------------------------------------Dishes Style Page----------------------------------------------------------------------------*/
+.row{
+	background-color: #F6F7F9;
+        opacity: 50px;
+        width: 101.1%;
+}
+
+.row h3{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 15px;
+}
+.row p{
+	font-family: 'Open sans', serif;
+	font-weight: bold;
+}
+
+.dish{
+	background-color: #ffffff;
+}
+
+.dish h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #082030;
+    font-size: 36px;
+}
+
+.dish h2{
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+     font-size: 35px;
+}
+
+.dish-header h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 35px;
+}
+
+.nutrional{
+    background-color: #C7D8D9;
+    min-height: 250px;
+}
+
+.nutrional h3{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
+
+.nutrional span{
+    font-family: 'Raleway', sans-serif;
+}
+
+.info{
+    background:#ffffff;
+    min-height: 500px;;
+}
+
+.method h3{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    color: #249176;
+}
+
+.ingredients h3{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    color: #249176;
+}
+.ingredients ul li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.vdivide{
+    height: 25px;
+    margin: 0 9px;
+    border-left: 1px solid #082030;
+    top:20px;
+    opacity:1;
+}
+/*-------------------------------------------------End of Dishes Page----------------------------------------------------------------------------*/

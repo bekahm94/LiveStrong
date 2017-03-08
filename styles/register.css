@@ -1,0 +1,201 @@
+body {
+   background-color: #5cdc98;
+}
+
+/*------------NAVBAR-----------------------------------------------------------------------*/
+
+.navbar-default {
+	background:rgba(84,149,138,0.6); /*used an rgba so the navbar would drop opacity but the rest of the content would be fully visible*/
+	height:70px;
+	border:none;
+}
+
+.navbar-brand {
+	color:#ffffff !important; /*use important to force a style to override the bootstrap default styles*/
+	font-family: 'Arima Madurai', cursive;
+	font-size:40px;
+	position:relative;
+	top:10px;
+}
+
+
+.hover  li a{ /*targets the <ul> tag and the list inside the tag and within the list, targets the <a> tag*/
+	display: block; /*block display always starts on a new line and takes up the full width available, stretches as far as its allowed*/
+    color: #C7D8D9 !important;
+    text-align: center; 
+	font-size:17px;
+	top:10px;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing:1px;
+	
+}
+
+.hover a:link, .hover a:visited {
+	font-size:17px; /*size of the font*/
+	color:#dae8e6 !important; /*colour of the font using a hex code*/
+}
+
+.hover li a:hover, .hover li a:active {
+	background-color:#dae8e6 !important;
+	cursor:pointer; /*changes when the mouse pointer hovers over it*/
+	color: #079c5d !important; /*colour the font changes to when hovered*/
+	border:1px solid #079c5d !important;
+	-webkit-transition:background-color 1s ease-out; /*using the css webkit plugin slowly fades the background colour from one to another, takes 1 second to fade out... Compatible with Chrome & Safari*/
+	-moz-transition:background-color 1s ease-out; /*Does same as above, compatible with Firefox*/
+	-o-transition: background-color 1s ease-out; /*Does same as above, compatible with Internet Explorer*/
+	transition: background-color 1s ease-out; /*Makes the transition above smooth*/
+}
+
+.hover li a.hover-change {
+	font-size:14px;
+	top:10px;
+	
+}
+
+.divider-vertical { /*the small line that divides the main navigation and the login/register options*/
+	height: 30px;
+	margin: 0 9px;
+	border-left: 1px solid #dae8e6;
+	top:20px;
+	opacity:0.8;
+}
+
+.icon-bar { /*the collapsed navigation icon*/
+	background-color:#079c5d !important;
+}
+
+.navbar-collapse li {
+	z-index:1000;
+}
+
+@media only screen and (max-width : 767px) {
+	.navbar-collapse li {
+		background:#2c3a4e;
+		color:white;
+		opacity: 0.9;
+	}	
+	
+	.navbar-collapse .divider-vertical {
+		display:none;
+	}
+	
+}
+
+h1.logo {
+    color:#276794 !important; /*use important to force a style to override the bootstrap default styles*/
+    font-family: 'Arima Madurai', cursive;
+    font-size:40px;
+}
+
+h1.logo small {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    position:relative;
+    left:10px;
+    color:#204649;
+    
+}
+
+h1.logo p {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    color:#204649;
+    font-size:15px;
+}
+
+.register-header {
+    background:#a1f5db;
+    padding:15px;
+    border:2px solid #1aa4ac;
+    min-height:700px;
+    min-width: 700px;
+}
+
+.register-header hr{
+    border:1px solid #1aa4ac;
+    position:relative;
+    left:10px;
+}
+
+.register-header h3 {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    color:#204649;
+    position:relative;
+    top:10px;
+}
+
+.form-label {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    color:#204649;
+    font-size:15px;
+}
+
+input.form-control {
+     font-family: 'Cuprum', sans-serif;
+     letter-spacing:1px;
+}
+
+i.fa-envelope, i.fa-user, i.fa-lock {
+    color: #5cdc98;
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .fa-envelope, .fa-user, .fa-lock {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon fa-envelope, .left-addon fa-user, .left-addon fa-lock  { left:  0px;}
+.right-addon fa-user { right: 0px;}
+
+/* add padding  */
+.left-addon input, .left-addon1 input  { 
+    padding-left:  30px;
+}
+
+.footer, .footer-exercise {
+	background:#dae8e6;
+	min-height:300px;
+	position:relative;
+	top:10px;
+}
+
+.footer-exercise {
+	opacity:0.8;
+}
+
+.findus h1, .disclosure h1 {
+	font-family: 'Bree Serif', serif;
+	color:#2c3a4e;
+}
+
+.disclosure p {
+	font-family: 'Hind', sans-serif;
+	color:#000;
+	font-size:15px;
+	font-weight:bold;
+	line-height:1.8;
+	letter-spacing:1.4px;
+}
+
+.footer hr, .footer-exercise hr {
+	border: 1px solid #079c5d;
+}
+
+.social a {
+	padding:10px;
+}
+
+
+
+
+
+
